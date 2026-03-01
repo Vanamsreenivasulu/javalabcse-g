@@ -25,28 +25,41 @@ class DefaultPrimitiveType {
 ```
 ### output
 ![output for DefaultprimitiveType](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/c11d9ef6fb83f0aaba1f972c39dc82fcd8a13eca/1a.output.png)
-## TITLE : 2a.) implement class mechanisam 
+## TITLE : 1b.) QUADRATIC EQUATION
 ```
-class Rectangle{
-  double l;
-  double b;
-  double area(){
-    return l*b;
-  }
-  double perimeter(){
-   return 2*(l+b);
-   }
- }
-class main{
-  public static void main(String args[]){
-    Rectangle rect =new Rectangle();
-    rect.l=6;
-    rect.b=12;
-    double area = rect.area();
-    double perimeter =rect.perimeter();
-    System.out.println("area is:" +area);
-    System.out.println("perimeter is:" +perimeter);
+import java.util.Scanner;
+class Quadratic {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of a: ");
+        double a = sc.nextDouble();
+        System.out.print("Enter the value of b: ");
+        double b = sc.nextDouble();
+        System.out.print("Enter the value of c: ");
+        double c = sc.nextDouble();
+        double D = b * b - 4 * a * c;
+        if (D > 0) {
+            double x1 = (-b + Math.sqrt(D)) / (2 * a);
+            double x2 = (-b - Math.sqrt(D)) / (2 * a);
+            System.out.println("Two real roots:");
+            System.out.println("x1 = " + x1);
+            System.out.println("x2 = " + x2);
+        } else if (D == 0) {
+            double y = -b / (2 * a);
+            System.out.println("Roots are equal:");
+            System.out.println("y = " + y);
+        } else {
+            double real = -b / (2 * a);
+            double img = Math.sqrt(-D) / (2 * a);
+            System.out.println("Roots are complex:");
+            System.out.println("x1 = " + real + " + " + img + "i");
+            System.out.println("x2 = " + real + " - " + img + "i");
+        }
+        sc.close();
     }
-  }
+}
 ```
+### output:
+### output
+![output for quadratic equation](
 
