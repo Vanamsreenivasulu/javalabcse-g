@@ -23,3 +23,5 @@ class DefaultPrimitiveType {
     }
   }
 ```
+### output
+![output for DefaultprimitiveType]https://github.com/Vanamsreenivasulu/javalabcse-g/blob/c11d9ef6fb83f0aaba1f972c39dc82fcd8a13eca/1a.output.png
