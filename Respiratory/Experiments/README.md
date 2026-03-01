@@ -25,3 +25,28 @@ class DefaultPrimitiveType {
 ```
 ### output
 ![output for DefaultprimitiveType](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/c11d9ef6fb83f0aaba1f972c39dc82fcd8a13eca/1a.output.png)
+## TITLE : 2a.) implement class mechanisam 
+```
+class Rectangle{
+  double l;
+  double b;
+  double area(){
+    return l*b;
+  }
+  double perimeter(){
+   return 2*(l+b);
+   }
+ }
+class main{
+  public static void main(String args[]){
+    Rectangle rect =new Rectangle();
+    rect.l=6;
+    rect.b=12;
+    double area = rect.area();
+    double perimeter =rect.perimeter();
+    System.out.println("area is:" +area);
+    System.out.println("perimeter is:" +perimeter);
+    }
+  }
+```
+
