@@ -62,4 +62,81 @@ class Quadratic {
 ### output:
 ### output
 ![output for quadratic equation](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/896cab244574b6b006b386e14c56cca4498d27b2/1b%20java.png)
+## TITLE : 2a.) implement class mechanisam 
+```
+class Rectangle{
+  double l;
+  double b;
+  double area(){
+    return l*b;
+  }
+  double perimeter(){
+   return 2*(l+b);
+   }
+ }
+class main{
+  public static void main(String args[]){
+    Rectangle rect =new Rectangle();
+    rect.l=6;
+    rect.b=12;
+    double area = rect.area();
+    double perimeter =rect.perimeter();
+    System.out.println("area is:" +area);
+    System.out.println("perimeter is:" +perimeter);
+    }
+  }
+```
+### output:
+![output for class mechanism]
+## 2b) method overloading
+```
+class sum{
+  int sum(int a ,int b){
+    return a+b;
+  }
+  int sum(int a ,int b,int c){
+  return a+b+c;
+  }
+  double sum(double a ,double b){
+   return a+b;
+  }
+}
+class main{
+ public static void main(String args[]){
+   sum s= new sum();
+   System.out.println("sum of 2 integers:"+s.sum(20,16));
+   System.out.println("sum of 3 integers:"+s.sum(20,16,17));
+   System.out.println("sum of two real numbers:"+s.sum(30.465,15.675));
+  }
+}
+```
+### output:
+![output of method overloading]
+## 2c)implement constructor
+```
+class student{
+ String sname;
+ int sage;
+ double smarks;
+ student(String name,int age,double marks){
+   sname=name;
+   sage=age;
+   smarks=marks;
+  }
+ void display(){
+  System.out.println("student name is :"+sname);
+  System.out.println("student age is :"+sage);
+  System.out.println("stduent marks is:"+smarks);
+  }
+}
+class main{
+ public static void main(String args[]){
+  student std= new student("sree",12,960);
+  std.display();
+  }
+}
+````
+### output:
+![output of implement constructor]
+
 
