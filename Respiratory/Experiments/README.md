@@ -61,5 +61,5 @@ class Quadratic {
 ```
 ### output:
 ### output
-![output for quadratic equation](
+![output for quadratic equation](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/896cab244574b6b006b386e14c56cca4498d27b2/1b%20java.png)
 
