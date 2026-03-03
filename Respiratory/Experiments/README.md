@@ -24,7 +24,7 @@ class DefaultPrimitiveType {
   }
 ```
 ### output
-![output for DefaultprimitiveType](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/c11d9ef6fb83f0aaba1f972c39dc82fcd8a13eca/1a.output.png)
+![output for DefaultprimitiveType]
 ## TITLE : 1b.) QUADRATIC EQUATION
 ```
 import java.util.Scanner;
@@ -61,7 +61,7 @@ class Quadratic {
 ```
 ### output:
 ### output
-![output for quadratic equation](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/896cab244574b6b006b386e14c56cca4498d27b2/1b%20java.png)
+![output for quadratic equation]
 ## TITLE : 2a.) implement class mechanisam 
 ```
 class Rectangle{
@@ -87,7 +87,7 @@ class main{
   }
 ```
 ### output:
-![output for class mechanism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/170dcd6799614686829019a1241c1f384723915d/2a%20output.png)
+![output for class mechanism]
 ## 2b) method overloading
 ```
 class sum{
@@ -111,7 +111,7 @@ class main{
 }
 ```
 ### output:
-![output of method overloading](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/006493254790cba4becc0a9e1ba99a7e739ea6c3/2b%20output.png)
+![output of method overloading]
 ## 2c)implement constructor
 ```
 class student{
@@ -137,6 +137,492 @@ class main{
 }
 ````
 ### output:
-![output of implement constructor](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/6920bace3dbe5e49e517ada013f44e5b1993340c/2c%20output.png)
+![output of implement constructor]
+## 3a constructor overload
+```
+class student{
+ String name;
+ int age;
+ double marks;
+ student(){
+ }
+ student(String name,int age,double marks){
+  this.name=name;
+  this.age=age;
+  this.marks=marks;
+}
+void display(){
+  System.out.println("name:"+name);
+  System.out.println("age:"+age);
+  System.out.println("marks:"+marks);
+  }
+}
+
+class main{
+ public static void main(String args[]){
+   student std= new student();
+   std.display();
+   student std1=new student ("sree",19,60);
+   std1.display();
+ }
+}
+```
+### output
+![output constructor overload]
+
+## 3b) binary search
+```
+ import java.util.Scanner;
+class Binary {
+    int list[];
+    int size;
+    Binary(int size) {
+        this.size = size;
+        list = new int[size];
+    }
+    void setList() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter items in ascending order:");
+        for (int i = 0; i < size; i++) {
+            System.out.println("Enter value of " + (i + 1) + ":");
+            list[i] = sc.nextInt();
+        }
+    }
+    void getList() {
+        System.out.println("List elements:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(list[i] + " ");
+        }
+        System.out.println();
+    }
+    int binary(int key) {
+        int low = 0;
+        int high = size - 1;
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (list[mid] == key)
+                return mid;
+            else if (list[mid] < key)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return -1;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of list:");
+        int size = sc.nextInt();
+        Binary b = new Binary(size);
+        b.setList();
+        b.getList();
+        System.out.println("Enter a key to search:");
+        int key = sc.nextInt();
+        int index = b.binary(key);
+        if (index == -1) {
+            System.out.println("Key item does not exist");
+        } else {
+            System.out.println("Key item exists at position: " + (index + 1));
+        }
+    }
+}
+````
+### output:
+![output binary search]
+## 3c) booble sort
+```
+ class BubbleSort {
+    BubbleSort(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+
+            }
+        }
+    }
+}
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of array:");
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        new BubbleSort(arr);
+        System.out.println("Sorted array:");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+```
+### output:
+![output bobble sort]
+## 4a) single inheritance
+```class Person {
+    String name;
+    int age;
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    void displayPersonDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+
+class Employee extends Person {
+    double annualSalary;
+    int yearOfJoining;
+    String nationalInsuranceNumber;
+
+    Employee(String name, int age, double salary, int year, String nin) {
+        super(name, age);
+        annualSalary = salary;
+        yearOfJoining = year;
+        nationalInsuranceNumber = nin;
+    }
+
+    void displayEmployeeDetails() {
+        displayPersonDetails();
+        System.out.println("Annual Salary: " + annualSalary);
+        System.out.println("Year of Joining: " + yearOfJoining);
+        System.out.println("National Insurance Number: " + nationalInsuranceNumber);
+    }
+}
+
+public class TestEmployee {
+    public static void main(String[] args) {
+        Employee emp = new Employee("sree", 19, 60000, 2022, "NJ123456A");
+        emp.displayEmployeeDetails();
+    }
+}
+
+
+```
+### output
+![output of single inheritance]
+## 4b) multi level inheritance
+```
+class Bicycle {
+    String pedalType;
+
+    void showBicycleInfo() {
+        System.out.println("This is a bicycle with pedals");
+        System.out.println("Pedal Type: " + pedalType);
+    }
+}
+
+class Motorbike extends Bicycle {
+    int engineCapacity;
+
+    void showMotorbikeInfo() {
+        System.out.println("This motorbike has an engine");
+        System.out.println("Engine Capacity: " + engineCapacity + " cc");
+    }
+}
+
+class ElectricBike extends Motorbike {
+    int batteryCapacity;
+
+    void showElectricBikeInfo() {
+        System.out.println("This electric bike has an electric motor & battery");
+        System.out.println("Battery Capacity: " + batteryCapacity + " Wh");
+    }
+}
+
+public class TestVehicle {
+    public static void main(String[] args) {
+        ElectricBike eBike = new ElectricBike();
+
+        eBike.pedalType = "Standard Pedals";
+        eBike.engineCapacity = 250;
+        eBike.batteryCapacity = 500;
+
+        eBike.showBicycleInfo();
+        eBike.showMotorbikeInfo();
+        eBike.showElectricBikeInfo();
+    }
+}
+```
+### output
+![output of single inheritace]
+## 4c) abstrac class
+```
+abstract class Figure {
+    double dim1, dim2;
+
+    Figure(double d1, double d2) {
+        dim1 = d1;
+        dim2 = d2;
+    }
+
+    abstract double area();
+}
+
+class Rectangle extends Figure {
+    Rectangle(double length, double breadth) {
+        super(length, breadth);
+    }
+
+    double area() {
+        return dim1 * dim2;
+    }
+}
+
+class Triangle extends Figure {
+    Triangle(double base, double height) {
+        super(base, height);
+    }
+
+    double area() {
+        return 0.5 * dim1 * dim2;
+    }
+}
+
+public class TestFigure {
+    public static void main(String[] args) {
+        Figure f1 = new Rectangle(23.4, 14.5);
+        Figure f2 = new Triangle(12.3, 15.6);
+
+        System.out.println("Area of Rectangle = " + f1.area());
+        System.out.println("Area of Triangle = " + f2.area());
+    }
+}
+```
+### output
+![output of abstrac class](
+## 5a)interface
+```
+interface Sortable{
+  void sort(int [] arr);
+  }
+class Bubblesort implements Sortable{
+  public void sort(int [] arr){
+   int size =arr.length;
+   int temp=0;
+   for(int i=0;i<size-1;i++){
+    for(int j=0;j<size-i-1;j++){
+      if(arr[j]>arr[j+1]){
+         temp=arr[j];
+         arr[j]=arr[i];
+         arr[i]=temp;
+          }
+       }
+     }
+  }
+}
+class Selectionsort implements Sortable {
+   public void sort (int [] arr){
+    int size=arr.length;
+    int minindex=0;
+    int min;
+    for(int i=0;i<size;i++){
+      min =arr[i];
+     for(int j=i+1;j<size;j++){
+       if(min>arr[j]){
+          min=arr[j];
+          minindex=j;
+         }
+       }
+     arr[i]=min;
+    }
+   }
+ }
+class Testsort {
+    static void display(int arr[]) {
+        for (int ele : arr) {
+            System.out.print(ele + ", ");
+        }
+        System.out.println();
+    }
+    public static void main(String args[]) {
+        int arr1[] = {9, 7, 4, 3, 6, 8};
+        int arr2[] = {8, 6, 3, 4, 7, 9};
+        Sortable s;
+        s = new Bubblesort();
+        s.sort(arr1);
+        System.out.println("After Bubble Sort:");
+        display(arr1);
+
+        s = new Selectionsort();
+        s.sort(arr2);
+        System.out.println("After Selection Sort:");
+        display(arr2);
+    }
+}
+```
+### output
+![output of inheritance]
+## 5b) polymorphism
+```
+class Vehicle{
+    void run(){
+          System.out.println(" vechicle is running:");
+     }
+  }
+class car extends Vehicle{
+    void run(){
+           System.out.println("car is running :");
+      }
+  }
+class bike extends Vehicle{
+     void run(){
+       System.out.println("bike is running:");
+    }
+  }
+class TestVehicle{
+   public static void main(String args[]){
+     Vehicle v ;
+     v=new car();
+     v.run();
+     v=new bike();
+     v.run();
+     v=new Vehicle();
+     v.run();
+    }
+}
+```
+### output
+![output of polymorphism](
+## 5c) stingbuffer
+```
+class Deletechar{
+  public static void main(String args[]){
+    StringBuffer sb =new StringBuffer("java programming");
+    System.out.println(sb);
+    sb.deleteCharAt(4);
+    System.out.println(sb);
+    sb.delete(0,4);
+    System.out.println(sb);
+
+   }
+}
+```
+### output
+![output of stringbuffer]
+### 6a) excaption handling
+```
+import java.util.Scanner;
+
+class ArrayIndexExceptionDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter size of array: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+        System.out.println("Enter " + n + " elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        try {
+            System.out.print("Enter index to access: ");
+            int index = sc.nextInt();
+            System.out.println("Element at index " + index + " is " + arr[index]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array index out of bounds!");
+        }
+
+        sc.close();
+    }
+}
+```
+### output
+![output of exception handling]
+## 6b) muitiple catch clause
+```
+import java.util.Scanner;
+
+class MultipleCatchDemo {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = {10, 20, 30, 40, 50};
+
+        try {
+            System.out.print("Enter first number: ");
+            int a = sc.nextInt();
+
+            System.out.print("Enter second number: ");
+            int b = sc.nextInt();
+
+            int result = a / b;
+            System.out.println("Result = " + result);
+
+            System.out.print("Enter index to access array: ");
+            int index = sc.nextInt();
+            System.out.println("Element = " + arr[index]);
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception occurred");
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Out Of Bounds Exception occurred");
+        }
+        catch (Exception e) {
+            System.out.println("Some other exception occurred");
+        }
+
+        sc.close();
+        System.out.println("Program continues...");
+    }
+```
+### output 
+![output of mutiple clauses]
+## 6c) java built-in 
+```
+import java.util.Scanner;
+
+class BuiltInException {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            System.out.print("Enter a number to divide 100: ");
+            int n = sc.nextInt();
+
+            int result = 100 / n;
+            System.out.println("Result = " + result);
+
+            int[] arr = new int[3];
+            System.out.println(arr[5]);
+        }
+        catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception occurred");
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array Index Out Of Bounds Exception occurred");
+        }
+        catch (Exception e) {
+            System.out.println("General Exception o…
+```
+### output
+![output of builtin]
+
+
+
+
+
+
+
+
 
 
