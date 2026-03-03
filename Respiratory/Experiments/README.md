@@ -167,7 +167,7 @@ class main{
 }
 ```
 ### output
-![output constructor overload]
+![output constructor overload](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/e398c9d10ff10703834a7c9a6cb20bee718f9017/3a%20output.png)
 
 ## 3b) binary search
 ```
