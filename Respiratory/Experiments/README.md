@@ -405,7 +405,7 @@ public class TestFigure {
 }
 ```
 ### output
-![output of abstrac class](
+![output of abstrac class](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/cd74ed97fd13a558abb39d5014a81c84d72455b0/4c%20output.png)
 ## 5a)interface
 ```
 interface Sortable{
