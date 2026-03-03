@@ -60,7 +60,6 @@ class Quadratic {
 }
 ```
 ### output:
-### output
 ![output for quadratic equation](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/21a383e1f77972805c92a0a2727f090b294f96c8/1b%20output.png)
 ## TITLE : 2a.) implement class mechanisam 
 ```
@@ -87,7 +86,7 @@ class main{
   }
 ```
 ### output:
-![output for class mechanism]
+![output for class mechanism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/915ec79c031b5aa9959b5a1e011be580e6983217/2a%20output.png)
 ## 2b) method overloading
 ```
 class sum{
