@@ -546,7 +546,7 @@ class ArrayIndexExceptionDemo {
 }
 ```
 ### output
-![output of exception handling]
+![output of exception handling](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/2b927f3d6565e2381756ba4d31bc2c41f4c76933/6a%20output.png)
 ## 6b) muitiple catch clause
 ```
 import java.util.Scanner;
