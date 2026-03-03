@@ -24,7 +24,7 @@ class DefaultPrimitiveType {
   }
 ```
 ### output
-![output for DefaultprimitiveType](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/dde531ce12fee9db571f7933c8e57299b3bbda02/1a%20output.png)
+![output for DefaultprimitiveType](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/2cecacb8884c478bab05438dc04f0baeff9fd25e/1a%20output.jpeg)
 ## TITLE : 1b.) QUADRATIC EQUATION
 ```
 import java.util.Scanner;
