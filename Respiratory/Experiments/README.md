@@ -61,7 +61,7 @@ class Quadratic {
 ```
 ### output:
 ### output
-![output for quadratic equation]
+![output for quadratic equation](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/21a383e1f77972805c92a0a2727f090b294f96c8/1b%20output.png)
 ## TITLE : 2a.) implement class mechanisam 
 ```
 class Rectangle{
