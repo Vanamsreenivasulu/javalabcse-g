@@ -498,7 +498,7 @@ class TestVehicle{
 }
 ```
 ### output
-![output of polymorphism](
+![output of polymorphism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/a28b6abaf9c3ff4ae29dbca87b7f2e0c08947df6/5b%20output.png)
 ## 5c) stingbuffer
 ```
 class Deletechar{
