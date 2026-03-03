@@ -360,7 +360,7 @@ public class TestVehicle {
 }
 ```
 ### output
-![output of single inheritace]
+![output of single inheritace](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/7e19ff1f69251ca8bfdfb44c55297715307fbfae/4b%20output.png)
 ## 4c) abstrac class
 ```
 abstract class Figure {
