@@ -615,6 +615,167 @@ class BuiltInException {
 ```
 ### output
 ![output of builtin](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/aa0dc91cfb584a805ede07509f01a1c3799f9c0f/6c%20output.png)
+## add 1) insert substring into main string
+```
+mport java.util.Scanner;
+class InsertSubstring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter main string:");
+        String mainString = sc.nextLine();
+        System.out.println("Enter substring:");
+        String subString = sc.nextLine();
+        System.out.println("Enter the position to insert the substring:");
+        int position = sc.nextInt();
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid position");
+        }
+        else {
+            String firstPart = mainString.substring(0, position);
+            String secondPart = mainString.substring(position);
+
+            String resultString = firstPart + subString + secondPart;
+
+            System.out.println("Result string: " + resultString);
+        }
+
+        sc.close();
+    }
+}
+```
+### output:
+![output of substring into main string]
+## add 2) Finocis series
+```
+class Fibonacis {
+
+    int firstnumber;
+    int secondnumber;
+    int thirdnumber;
+    int sum;
+    int size_of_fibsequence;
+
+    Fibonacis(int size) {
+        firstnumber = 0;
+        secondnumber = 1;
+        thirdnumber = 0;
+        sum = 0;
+        size_of_fibsequence = size;
+    }
+
+    void generate_fibsequence() {
+
+        while (size_of_fibsequence > 0) {
+
+            if (size_of_fibsequence == 1)
+                System.out.print(firstnumber + " ");
+            else
+                System.out.print(firstnumber + " ");
+
+            sum += firstnumber;
+
+            thirdnumber = firstnumber + secondnumber;
+            firstnumber = secondnumber;
+            secondnumber = thirdnumber;
+
+            size_of_fibsequence--;
+        }
+    }
+    int getfibsum(){
+      return sum;
+  }
+ }
+import java.util.Scanner;
+class main{
+  public static void main(String args[]){
+     System.out.println("Enter size of fibsequence:");
+     Scanner sc=new Scanner(System.in);
+     int size=sc.nextInt();
+     if(size>0){
+     Fibonacis fib=new Fibonacis(size);
+     System.out.println("Fibonacci series are:");
+     fib.generate_fibsequence();
+     System.out.println("The sum of fibonacci series:"+fib.getfibsum());
+     }
+     else{
+     System.out.println("Fibonacci sequence and sum cannot be calculated");
+     }
+}
+}
+```
+### output
+![output of fibonnoci series]
+## add 3) polindrome
+```
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        int start = 0;
+        int end = str.length() - 1;
+        boolean isPalindrome = true;
+
+        while (start < end) {
+            if (str.charAt(start) != str.charAt(end)) {
+                isPalindrome = false;
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        if (isPalindrome) {
+            System.out.println("The string \"" + str + "\" is a palindrome.");
+        } else {
+            System.out.println("The string \"" + str + "\" is not a palindrome.");
+        }
+
+        sc.close();
+    }
+}
+```
+### output:
+![output of polindrome]
+## add 4) perfect number
+```
+import java.util.Scanner;
+
+class Main {
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number:");
+        int num = sc.nextInt();
+
+        int sum = 0;
+
+        for (int i = 1; i < num; i++) {
+            if (num % i == 0) {
+                sum += i;
+            }
+        }
+
+        if (sum == num) {
+            System.out.println(num + " is a perfect number");
+        }
+        else {
+            System.out.println(num + " is not a perfect number");
+        }
+
+        sc.close();
+    }
+}
+```
+### output:
+![output of perfect number])
+
 
 
 
