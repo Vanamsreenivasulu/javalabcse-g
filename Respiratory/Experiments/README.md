@@ -741,7 +741,7 @@ class Main {
 }
 ```
 ### output:
-![output of polindrome]
+![output of polindrome](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/ed258c3721a6250ffc5dd54a80cf7f631fd0d3a4/add%203%20output.png)
 ## add 4) perfect number
 ```
 import java.util.Scanner;
