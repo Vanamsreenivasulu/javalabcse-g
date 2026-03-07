@@ -810,7 +810,7 @@ class UserRegion {
 }
 ```
 ### output:
-![output of default exception](
+![output of default exception](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/7db3b0bafa8c524bf49d73c31ea41dfbcb42e468/7%20a%20output.png)
 ## 7b) thread by exception
 ```
 class GoodMorningThread extends Thread {
