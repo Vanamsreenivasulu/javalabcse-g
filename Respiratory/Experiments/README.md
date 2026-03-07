@@ -644,7 +644,7 @@ class InsertSubstring {
 }
 ```
 ### output:
-![output of substring into main string]
+![output of substring into main string](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/6734a8446daece73fdcf072f288e7063786234a8/add%201%20output.png)
 ## add 2) Finocis series
 ```
 class Fibonacis {
