@@ -704,7 +704,7 @@ class main{
 }
 ```
 ### output
-![output of fibonnoci series]
+![output of fibonnoci series](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/4468a34c1d0f74023ee7085e2bff70c3de55b767/add%202%20output.png)
 ## add 3) polindrome
 ```
 import java.util.Scanner;
