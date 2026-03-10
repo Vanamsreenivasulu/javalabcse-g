@@ -266,7 +266,7 @@ class Main {
 }
 ```
 ### output:
-![output bobble sort](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/4abda902a9468fe0e853979edb1e9c11af487687/3b%20output.jpeg)
+![output bobble sort](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/bdab73f50704229540f76d9d2a918ea2631e776b/3c%20output.jpeg)
 ## 4a) single inheritance
 ```class Person {
     String name;
