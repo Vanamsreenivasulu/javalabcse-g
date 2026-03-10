@@ -86,7 +86,7 @@ class main{
   }
 ```
 ### output:
-![output for class mechanism]()
+![output for class mechanism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/0be676372672c85bb015399c5599ede313fa2c56/2a%20output.jpeg)
 ## 2b) method overloading
 ```
 class sum{
