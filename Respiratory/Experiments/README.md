@@ -702,7 +702,7 @@ class main{
 }
 ```
 ### output
-![output of fibonnoci series](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/4468a34c1d0f74023ee7085e2bff70c3de55b767/add%202%20output.png)
+![output of fibonnoci series](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/9d5d0227914563c27a345ebc0811576a390fad90/add2%20outout.jpeg)
 ## add 3) polindrome
 ```
 import java.util.Scanner;
