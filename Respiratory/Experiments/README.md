@@ -313,7 +313,7 @@ public class TestEmployee {
 
 ```
 ### output
-![output of single inheritance](
+![output of single inheritance](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/de54b5c2c952a258837ffad6770af5ec25e22232/4c%20output.jpeg)
 ## 4b) multi level inheritance
 ```
 class Bicycle {
