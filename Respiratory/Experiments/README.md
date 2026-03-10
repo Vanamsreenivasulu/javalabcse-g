@@ -86,7 +86,7 @@ class main{
   }
 ```
 ### output:
-![output for class mechanism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/915ec79c031b5aa9959b5a1e011be580e6983217/2a%20output.png)
+![output for class mechanism]()
 ## 2b) method overloading
 ```
 class sum{
@@ -110,8 +110,7 @@ class main{
 }
 ```
 ### output:
-![output of method overloading](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/1363c563fcff72762ded5d40b9c7bbae2035ac2f/2b%20output.png)
-## 2c)implement constructor
+![output of method overloading](
 ```
 class student{
  String sname;
@@ -136,7 +135,7 @@ class main{
 }
 ````
 ### output:
-![output of implement constructor](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/8ed06619b1cd561522f11e41b27e84b1990d8154/2c%20output.png)
+![output of implement constructor](
 ## 3a constructor overload
 ```
 class student{
@@ -167,8 +166,7 @@ class main{
 }
 ```
 ### output
-![output constructor overload](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/e398c9d10ff10703834a7c9a6cb20bee718f9017/3a%20output.png)
-
+![output constructor overload](
 ## 3b) binary search
 ```
  import java.util.Scanner;
@@ -230,7 +228,7 @@ class Main {
 }
 ````
 ### output:
-![output binary search](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/d652e857bcc8a836b67d946c3c3a3e36947e6d82/3b%20output.png)
+![output binary search](
 ## 3c) booble sort
 ```
  class BubbleSort {
@@ -268,7 +266,7 @@ class Main {
 }
 ```
 ### output:
-![output bobble sort](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/a8882cba044f29ac658efccb0ee61030e3a01fb7/3c%20output.png)
+![output bobble sort](
 ## 4a) single inheritance
 ```class Person {
     String name;
@@ -315,7 +313,7 @@ public class TestEmployee {
 
 ```
 ### output
-![output of single inheritance](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/eb13042ee202b0e1df8917202d2bc0b89b513bed/4a1%20output.png)
+![output of single inheritance](
 ## 4b) multi level inheritance
 ```
 class Bicycle {
@@ -360,7 +358,7 @@ public class TestVehicle {
 }
 ```
 ### output
-![output of single inheritace](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/7e19ff1f69251ca8bfdfb44c55297715307fbfae/4b%20output.png)
+![output of single inheritace](
 ## 4c) abstrac class
 ```
 abstract class Figure {
@@ -405,7 +403,7 @@ public class TestFigure {
 }
 ```
 ### output
-![output of abstrac class](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/cd74ed97fd13a558abb39d5014a81c84d72455b0/4c%20output.png)
+![output of abstrac class](
 ## 5a)interface
 ```
 interface Sortable{
@@ -467,7 +465,7 @@ class Testsort {
 }
 ```
 ### output
-![output of inheritance](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/701ad0fe74e99c7dc4399ed96061b7a1d77e05dd/5a%20output.png)
+![output of inheritance](
 ## 5b) polymorphism
 ```
 class Vehicle{
@@ -498,7 +496,7 @@ class TestVehicle{
 }
 ```
 ### output
-![output of polymorphism](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/a28b6abaf9c3ff4ae29dbca87b7f2e0c08947df6/5b%20output.png)
+![output of polymorphism](
 ## 5c) stingbuffer
 ```
 class Deletechar{
@@ -514,7 +512,7 @@ class Deletechar{
 }
 ```
 ### output
-![output of stringbuffer](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/a017949e9724b10295221c5d641b773e92b59ddd/5c%20output.png)
+![output of stringbuffer](
 ### 6a) excaption handling
 ```
 import java.util.Scanner;
@@ -546,7 +544,7 @@ class ArrayIndexExceptionDemo {
 }
 ```
 ### output
-![output of exception handling](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/2b927f3d6565e2381756ba4d31bc2c41f4c76933/6a%20output.png)
+![output of exception handling](
 ## 6b) muitiple catch clause
 ```
 import java.util.Scanner;
@@ -585,7 +583,7 @@ class MultipleCatchDemo {
     }
 ```
 ### output 
-![output of mutiple clauses](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/715c6430b34595ac477cd8bf55283c13e56673e4/6b%20output.png)
+![output of mutiple clauses](
 ## 6c) java built-in 
 ```
 import java.util.Scanner;
@@ -614,7 +612,7 @@ class BuiltInException {
             System.out.println("General Exception o…
 ```
 ### output
-![output of builtin](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/aa0dc91cfb584a805ede07509f01a1c3799f9c0f/6c%20output.png)
+![output of builtin](
 ## add 1) insert substring into main string
 ```
 mport java.util.Scanner;
@@ -810,7 +808,7 @@ class UserRegion {
 }
 ```
 ### output:
-![output of default exception](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/7db3b0bafa8c524bf49d73c31ea41dfbcb42e468/7%20a%20output.png)
+![output of default exception](
 ## 7b) thread by exception
 ```
 class GoodMorningThread extends Thread {
@@ -865,7 +863,7 @@ class TestThreads {
     }
 }
 ```
-![output of creats threads](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/af0b4a202c45246dec505c67909d65b3ecc2b5d3/7%20b%20output.png)
+![output of creats threads](
 ## 7c) illustration is alive
 ```
 class LongRunningTask extends Thread {
@@ -907,7 +905,7 @@ public class ThreadDemo {
 }
 ```
 ### output
-![output is illustration alive](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/8080b853eb125b32187d790e8df3a68d754cea33/7%20c%20output.png)
+![output is illustration alive](
 
 
 
