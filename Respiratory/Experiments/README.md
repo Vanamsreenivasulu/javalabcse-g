@@ -135,7 +135,7 @@ class main{
 }
 ````
 ### output:
-![output of implement constructor](
+![output of implement constructor](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/b4a1d2fb4e60d513af195eba8152f33c8a87de53/2c%20output.jpeg)
 ## 3a constructor overload
 ```
 class student{
