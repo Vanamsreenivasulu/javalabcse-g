@@ -465,7 +465,7 @@ class Testsort {
 }
 ```
 ### output
-![output of inheritance](
+![output of inheritance](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/a16237747fb8b4823c98154bb5d299dfbc19388d/5a%20output.jpeg)
 ## 5b) polymorphism
 ```
 class Vehicle{
