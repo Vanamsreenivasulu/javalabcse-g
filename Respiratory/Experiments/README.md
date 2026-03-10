@@ -166,7 +166,7 @@ class main{
 }
 ```
 ### output
-![output constructor overload](
+![output constructor overload](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/62b0754e9837a20b5c090f5b1c12f8760d6efb63/3a%20output.jpeg)
 ## 3b) binary search
 ```
  import java.util.Scanner;
