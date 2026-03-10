@@ -228,7 +228,7 @@ class Main {
 }
 ````
 ### output:
-![output binary search](
+![output binary search](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/4abda902a9468fe0e853979edb1e9c11af487687/3b%20output.jpeg)
 ## 3c) booble sort
 ```
  class BubbleSort {
