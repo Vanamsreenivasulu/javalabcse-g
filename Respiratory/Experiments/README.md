@@ -612,7 +612,7 @@ class BuiltInException {
             System.out.println("General Exception o…
 ```
 ### output
-![output of builtin](
+![output of builtin](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/da6399e13acfb14699fa2f8ade4c410add2022c4/6c%20output.jpeg)
 ## add 1) insert substring into main string
 ```
 mport java.util.Scanner;
