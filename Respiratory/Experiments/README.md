@@ -110,7 +110,7 @@ class main{
 }
 ```
 ### output:
-![output of method overloading](
+![output of method overloading](https://github.com/Vanamsreenivasulu/javalabcse-g/blob/742421c6874a25db0848e5665a4dcd14fd9b5e4d/2b%20output.jpeg)
 ```
 class student{
  String sname;
