@@ -1042,7 +1042,7 @@ public class ProducerConsumerDemo {
 }
 ```
 ### output:
-1[output of producer consumer problme]
+1[output of producer consumer problem]
 
 
 
